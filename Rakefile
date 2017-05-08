@@ -15,10 +15,10 @@ require 'juwelier'
 Juwelier::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options
   gem.name = "rspec-controller-matchers"
-  gem.homepage = "http://github.com/stevo/rspec-controller-matchers"
+  gem.homepage = "http://github.com/selleo/rspec-controller-matchers"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "Facilitate assertions for common controller responsibilites"
+  gem.description = "Facilitate assertions for common controller responsibilites"
   gem.email = "blazejek@gmail.com"
   gem.authors = ["Stevo"]
   # dependencies defined in Gemfile
