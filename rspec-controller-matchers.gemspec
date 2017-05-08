@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib".freeze]
   s.authors = ["Stevo".freeze]
   s.date = "2017-05-08"
-  s.description = "TODO: longer description of your gem".freeze
+  s.description = "Facilitate assertions for common controller responsibilites".freeze
   s.email = "blazejek@gmail.com".freeze
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -29,15 +29,16 @@ Gem::Specification.new do |s|
     "VERSION",
     "lib/rspec-controller-matchers.rb",
     "lib/rspec/matchers/render_local_matcher.rb",
+    "rspec-controller-matchers.gemspec",
     "spec/fixtures/views/test/index.html.erb",
     "spec/fixtures/views/test/show.html.erb",
     "spec/rspec/matchers/render_local_matcher_spec.rb",
     "spec/spec_helper.rb"
   ]
-  s.homepage = "http://github.com/stevo/rspec-controller-matchers".freeze
+  s.homepage = "http://github.com/selleo/rspec-controller-matchers".freeze
   s.licenses = ["MIT".freeze]
   s.rubygems_version = "2.6.10".freeze
-  s.summary = "TODO: one-line summary of your gem".freeze
+  s.summary = "Facilitate assertions for common controller responsibilites".freeze
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
