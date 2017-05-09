@@ -9,9 +9,12 @@ RSpec::Matchers.define :destroy_record do |record|
     actual.call
 
     expect(record.class.exists?(id: record.id)).to eq false
+    
     if using_service?
       expect(service_klass).to have_received(:call)
     end
+    
+    true
   end
 
   def using_service(klass)

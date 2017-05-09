@@ -18,6 +18,8 @@ RSpec::Matchers.define :update_record do |resource, attributes|
     if using_form?
       expect(form_klass).to have_received(:new).with(have_attributes(id: resource.id), kind_of(Hash))
     end
+
+    true
   end
 
   def using_form(form_klass)

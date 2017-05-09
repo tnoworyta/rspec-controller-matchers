@@ -18,6 +18,8 @@ RSpec::Matchers.define :create_record do |klass, attributes|
     if using_form?
       expect(form_klass).to have_received(:new).with(kind_of(klass), kind_of(Hash))
     end
+
+    true
   end
 
   def using_form(form_klass)
