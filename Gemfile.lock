@@ -169,6 +169,7 @@ DEPENDENCIES
   juwelier (~> 2.1.0)
   pry-rails
   rails (>= 4.2.6)
+  rspec-expectations
   rspec-rails
 
 BUNDLED WITH
